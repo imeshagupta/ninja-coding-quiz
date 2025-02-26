@@ -30,7 +30,10 @@ const Quiz = () => {
   return (
     <div
       className="container d-flex justify-content-center align-items-center"
-      style={{ minHeight: "80vh" }}
+      style={{
+        minHeight: "80vh",
+        backgroundColor: "linear-gradient(#f4b2c7, #31029e)",
+      }}
     >
       {quizCompleted ? (
         <Result score={score} />
